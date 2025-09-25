@@ -19,7 +19,7 @@ public class BasicCalculator {
 
         double total = firstNumber * secondNumber;
 
-        System.out.println("Answer: " + total);
+        System.out.printf("%f * %f = %f", firstNumber, secondNumber, total);
 
 
 
